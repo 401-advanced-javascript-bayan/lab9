@@ -1,7 +1,7 @@
 'use strict';
 
 const Model = require('../model.js');
-const schema = require('./products-schema.js/index.js');
+const schema = require('../products/products-schema.js');
 
 class Products extends Model {
   constructor() {
